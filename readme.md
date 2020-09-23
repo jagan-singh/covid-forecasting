@@ -19,6 +19,7 @@ The dataset had number of total cases in United States each day. I converted tha
 ## Data Analysis and Visualization
 For Data analysis, I looked at a bunch of line plots for the data. There was an upward trend in the number of cases in United States. I also looked at seasonal decomposition graphs of the data which also shows that there is an upward trend but there is no seasonailty in data.
 Here are some visualizations of my data:
+![](images/cases.png)
 
 ## Models
 In this project I have tried couple different models. My baseline model was just a naive model which was predicting the last value always. I had 8056 RMSE with that model. After that I tried Arima models with different hyper parameters. I ran a grid search with ARIMA parameters and got the best parameters. With best parameters the RMSE was 5528. I also tried couple Neural Network models but none of them gave me a better RMSE than 5528.
