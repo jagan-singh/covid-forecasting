@@ -52,12 +52,15 @@ After trying models without exogeneous, I used other datasets. I used two other 
 
 ### Final Model
 The best model had the RMSE of 4958. This model used four variables as exogenous. These four variables were 'Grocery and Pharmacy percent change', 'Retail and Recreation percent change', 'Number of states with mask mandatory restrictions' and 'Number of states with Food and Drink restrictions'.
+![](images/final.png)
 
 ## Conclusion
+I have modeled time series data on number of Covid-19 cases in United States. This can ultimately help us understanding the direction in which our country is heading. Best RMSE that I achieved was 4958 with 4 exogenous variables. 4958 is pretty good considering the average number of cases that we are coming everyday are more than 30000. My model is able to predict the number the cases with 4958 error. The reason of this much error could be other factors responsible for spread of Covid-19, such as Social distancing which cannot be measured. Following are plots of predictions of Covid-19 each day and total cases.
+![](images/day.png)
+![](images/total.png)
 
-
-## Further Steps
-I have only looked at forecasting of COVID-19 cases on country level. In future, I would like to forecast number of cases on state level and compare how policies in different states have effects on number of cases.  
+## Future Steps
+I have not really gotten into Neural Networks. In future I would try Neural Network models with exogenous variables to see if it can improve the RMSE. I have only looked at forecasting of COVID-19 cases on country level. In future, I would like to forecast number of cases on state level and compare how policies in different states have effects on number of cases.  
 
 Here is the link to my Presentation:
 https://docs.google.com/presentation/d/1wGzRwaRTP-8JhZG0QGziiyQVdGLYBHFVYaT0JdaEDjE/edit?usp=sharing
