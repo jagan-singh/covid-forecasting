@@ -35,8 +35,6 @@ For Data analysis, I looked at a bunch of line plots for the data. There was an 
 Here are some visualizations of my data:
 ![](images/cases.png)
 ![](images/case_day.png)
-![](images/acf.png)
-![](images/pacf.png)
 
 ## Models
 ### Baseline Model
