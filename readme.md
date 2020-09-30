@@ -18,13 +18,13 @@ Here is the link to the data:
 https://healthdata.gov/dataset/covid-19-state-and-county-policy-orders
 
 ## Notebooks
-- without_exog.ipynb
+- without_exog.ipynb\
 This notebook contains different models to forecast the number of COVID-19 cases in United States as Time series without any exogenous variable.
 
-- with_exog.ipynb
+- with_exog.ipynb\
 This notebook contains different models to forecast the number of COVID-19 cases in United States as Time series with exogenous variables. I have used Google Community Mobility Data and Policy data to add as exogenous variable.
 
-- policy.ipynb
+- policy.ipynb\
 This notebook contains the extraction of useful information from the state policy updates dataset.
 
 ## Data Preprocessing
