@@ -53,7 +53,7 @@ The best model had the RMSE of 4958. This model used four variables as exogenous
 ![](images/final.png)
 
 ## Conclusion
-I have modeled time series data on number of Covid-19 cases in United States. This can ultimately help us understanding the direction in which our country is heading. Best RMSE that I achieved was 4958 with 4 exogenous variables. 4958 is pretty good considering the average number of cases that we are coming everyday are more than 30000. My model is able to predict the number the cases with 4958 error. The reason of this much error could be other factors responsible for spread of Covid-19, such as Social distancing which cannot be measured. Following are plots of predictions of Covid-19 each day and total cases.
+I have modeled time series data on number of Covid-19 cases in United States. This can ultimately help us understanding the direction in which our country is heading. Best RMSE that I achieved was 4958 with 4 exogenous variables. 4958 is pretty good considering the average number of cases that we are coming everyday are more than 30000. My model is able to predict the number the cases with 4958 error. The reason of this much error could be other factors responsible for spread of Covid-19, such as Social distancing which cannot be measured. Following are plots of predictions of Covid-19 for new cases and total cases each day.
 ![](images/day.png)
 ![](images/total.png)
 
